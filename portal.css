@@ -32,4 +32,10 @@ p{
 .background{
     background-color: azure;
 }
+footer p{
+    width: 100%;
+    text-align: center;
+    background-color: lightblue;
+    color: rgb(71,69, 69);
+}
 
