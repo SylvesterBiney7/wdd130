@@ -1,0 +1,35 @@
+a{
+    background-color: lightblue;
+    color: rgb(71,69, 69);
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+a:hover{
+    background-color: darkgray;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 1.5em;
+    text-align: center;
+}
+img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+p{
+    /* text-align: center; */
+    width: 80;
+    margin: 10px auto;
+    padding: 10px;
+}
+.background{
+    background-color: azure;
+}
+
