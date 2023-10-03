@@ -24,7 +24,7 @@ img{
     margin: 0 auto;
 }
 p{
-    /* text-align: center; */
+    text-align: center;
     width: 80;
     margin: 10px auto;
     padding: 10px;
