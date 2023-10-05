@@ -23,7 +23,7 @@ nav{
     justify-content: center;
 }
 h1{
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: center;
 }
 ol{
@@ -45,6 +45,7 @@ p{
     background-color: azure;
 }
 footer p{
+    font-size: 0.8em;
     width: 100%;
     text-align: center;
     color: rgb(71,69, 69);
@@ -56,5 +57,5 @@ footer p{
     color:white;
 }
 .p{
-    font-size: medium;
+    font-size: 1.5em;
 }
