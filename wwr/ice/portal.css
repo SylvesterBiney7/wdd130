@@ -18,9 +18,10 @@ h1{
     font-size: 1.5em;
     text-align: center;
 }
-ul{
+ol{
     font-size: 1em;
     text-align: center;
+    justify-content: center;
 }
 img{
     width: 30%;
