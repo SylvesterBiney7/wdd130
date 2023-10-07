@@ -5,14 +5,12 @@ a{
     margin: 5px;
     text-align: center;
 }
-h1{
-    text-decoration-color: white;
-}
 body{
     background-color: pink;
     display: flex;
     align-items: center;
     flex-direction: column;
+    <p font color=
 }
 a:hover{
     background-color: darkgray;
@@ -23,7 +21,7 @@ nav{
     justify-content: center;
 }
 h1{
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
 }
 ol{
@@ -31,7 +29,7 @@ ol{
     justify-content: center;
 }
 img{
-    width: 40%;
+    width: 4%;
     display: block;
     margin: 0 auto;
 }
@@ -45,17 +43,10 @@ p{
     background-color: azure;
 }
 footer p{
-    font-size: 0.8em;
     width: 100%;
     text-align: center;
     color: rgb(71,69, 69);
 }
 .container{
     max-width: 500px;
-}
-.white {
-    color:white;
-}
-.paraghaph{
-    font-size: 1.5em;
 }
