@@ -1,4 +1,26 @@
 a{
     max-width: 1600px;
-    margin: 0 auto;
+    margin:auto;
+    text-align: center;
+}
+#background{
+    height: 725px;
+}
+body {
+    background-color: #fcfbfb; 
+}
+header {
+    background-color:rgba(20,30,13, .7);
+}
+nav a:hover {
+    background-color: black;
+}
+footer p{
+    font-size: 1.2em;
+}
+.icon{
+    width: 80px;
+}
+footer p a:hover{
+    text-decoration: underline;
 }
