@@ -3,6 +3,14 @@ a{
     margin:auto;
     text-align: center;
 }
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.home-title{
+    font-size: 2em;
+    margin-top: 10px;
+}
 #background{
     height: 725px;
 }
@@ -10,7 +18,12 @@ body {
     background-color: #fcfbfb; 
 }
 header {
-    background-color:rgba(20,30,13, .7);
+    background-color:rgba(17, 21, 14, 0.7);
+}
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
 }
 nav a:hover {
     background-color: black;
@@ -23,4 +36,20 @@ footer p{
 }
 footer p a:hover{
     text-decoration: underline;
+}
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
+#hero-img{
+    width: 100%;
+}
+.home-grid.card-img{
+    display: block;
+    text-align: centerq;
+}
+main section{
+    text-align: center;
+}
+.button-box{
+    text-align: center;
 }
