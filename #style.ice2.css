@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat&family=MuseoModerno:wght@500;600&family=Poppins&display=swap');
 body{
-    font-family: Montserrat, Poppins;
+    font-family: Poppins, Montserrat;
     padding:0;
     margin:auto
 }
@@ -31,11 +31,10 @@ h1{
 }
 img{
     width: 30%;
-    display: block;
+    display: flex;
     margin: 20px auto;
     border: 3px solid lightblue;
     box-shadow: 30px;
-    border-radius: 25px;
 }
 p{
     text-align: center;
@@ -52,4 +51,3 @@ footer p{
     background-color: lightblue;
     color: rgb(71,69, 69);
 }
-
