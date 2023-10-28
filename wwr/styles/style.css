@@ -10,7 +10,7 @@ a{
     margin: 0 auto;
 }
 .home-title{
-    font-family: Montserrat;
+    font-family: Montserrat, MuseoModerno, Poppins;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -21,6 +21,7 @@ a{
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
+    color: white;
 }
 .msg p{
     padding-bottom: 15px;
@@ -29,8 +30,9 @@ a{
     height: 725px;
     grid-column: 1/11;
     grid-row: 4/9;
+    background-color: #d9c2a3;
 }
-body {
+body{
     background-color: #fcfbfb;
     font-family: Montserrat, Poppins, MuseoModern;
     font-size: 22px;
@@ -40,12 +42,12 @@ body {
 h2{
     margin: 0;
 }
-header {
+header{
     display: grid;
     grid-template-columns: 150px auto;
-    background-color:rgba(17, 21, 14, 0.7);
+    background-color:rgba(20, 30, 13, 0.7);
 }
-#logo link{
+#logo_link{
     padding-top: 5px;
     justify-self: center;
     align-self: center;
@@ -54,7 +56,7 @@ nav{
     display: flex;
     justify-content: space-around;
 }
-nav a {
+nav a{
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
@@ -62,14 +64,16 @@ nav a {
 }
 nav a:hover {
     background-color: black;
+    color: #d9c2a3;
 }
 footer{
     padding: 25px 50px;
-    margin-top: 100px;
+    margin-top: 200px;
     background-color: #6f7364;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color: #d9c2a3;
 }
 footer .social img{
     padding-top: 15px;
@@ -95,7 +99,7 @@ footer p a:hover{
 #hero{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: 100px;
+    margin-top: -100px;
 }
 #hero-box{
     grid-column: 1/4;
@@ -104,6 +108,14 @@ footer p a:hover{
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: aliceblue;
+}
+#hero-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
 }
 #hero-msg h4{
     color: white;
@@ -121,12 +133,15 @@ footer p a:hover{
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
+.card-img, .mountains{
+    width: 100%;
+}
 .card-img:hover{
     opacity: .6;
     transform: scale(1.1);
 }
 .rivers-card, .camping-card, .rapids-card, .mountains-card{
-    margin: 100px 0;
+    margin: 200px 0;
 }
 .rivers-card{
     grid-column: 2/4;
