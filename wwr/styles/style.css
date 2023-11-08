@@ -151,7 +151,7 @@ footer p a:hover{
     grid-column: 5/7;
     grid-row: 2/3;
 } 
-.rapids-card {
+.rapids-card{
     grid-column: 8/10;
     grid-row: 2/3;
 }
@@ -186,12 +186,36 @@ a{
     max-width: 1600px;
     margin: 0 auto;
 }
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover{
+    background-color: black;
+    color: #d9c2a3;
+}
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color:rgba(20, 30, 13, 0.7);
+}
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
 .home-grid{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
 #hero{
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
 }
@@ -222,12 +246,21 @@ a{
     text-align: center;
     border: 10px solid #d9c2a3;
 }
+.explore{
+    padding: 15px 30px;
+    margin-top: 50px;
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
 .card-img{
     border: 10px solid #d9c2a3;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
-.card-img, .mountains{
+.card-img{
     width: 100%;
 }
 .card-img:hover{
@@ -237,23 +270,30 @@ a{
 .salmon-river, .Gray-Canyon, .Grand-Canyon{
     margin: 200px 0;
 }
-.rivers-card{
+.salmon-river{
     grid-column: 2/4;
     grid-row: 2/3;
 } 
-.camping-card{
+.Gray-Canyon{
     grid-column: 5/7;
     grid-row: 2/3;
 } 
-.rapids-card {
+.Grand-Canyon{
     grid-column: 8/10;
     grid-row: 2/3;
 }
-.mountains{
-    width: 100%;
-    grid-column: 2/7;
-    grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
+main section{
+    text-align: center;
+}
+main section img{
+    box-sizing: border-box;
+}
+.button-box{
+    text-align: center;
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
 }
 
 
