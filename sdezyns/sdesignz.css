@@ -34,7 +34,7 @@ nav{
     justify-content: space-around;
     padding: 0px 30px;
     font-family: poppins;
-    font-size: 16px;
+    font-size: 18px;
 }
 nav a{
     text-align: center;
@@ -45,6 +45,7 @@ nav a{
 nav a:hover {
     background-color: black;
     color: #d9c2a3;
+    font-size: 22px;
 }
 .home-grid{
     display: block;
@@ -122,6 +123,6 @@ footer p {
     align-items: center;
     justify-content:space-between;
     justify-items: flex-start;
-    margin-top: 400px;
-    margin-right: 50px;
+    margin-top: 200px;
+    margin-right: 20px;
 }
