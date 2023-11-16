@@ -1,31 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat&family=MuseoModerno:wght@500;600&family=Poppins&display=swap');
-
-a {
-    max-width: 1600px;
-    margin: auto;
-    text-align: center;
-    text-decoration: none;
-}
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Amita:wght@700&family=Orbitron:wght@800&family=Poppins&family=Roboto&display=swap');
+</style>
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
 header {
-    display: grid;
-    grid-template-columns: 150px auto;
+    display: flex;
     background-color: black;
+    justify-content: flex-end;
+    align-items: center;
+
 }
 #logo_link{
-    padding-top: 5px;
+    padding: 0px 30px;
     justify-self: center;
     align-self: center;
+    margin-right: auto;
 }
-.icon, .logo {
+.logo{
+    width: 60px;
+}
+.icon {
     width: 80px;
 }
 nav{
     display: flex;
     justify-content: space-around;
+    padding: 0px 30px;
+    font-family: poppins;
+    font-size: 16px;
 }
 nav a{
     text-align: center;
@@ -46,7 +55,7 @@ nav a:hover {
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: 0px;
+    margin-top: -100px;
 }
 #hero-box {
     grid-column: 1/4;
@@ -56,7 +65,7 @@ nav a:hover {
     width: 100%;
 }
 .home-title {
-    font-family: Montserrat, MuseoModerno, Poppins;
+    font-family:orbitron; poppins;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -79,7 +88,7 @@ nav a:hover {
     transform: rotate(180deg);
     word-spacing: 2px;
     font-size: 100px;
-    margin-left: -1000px;
+    margin-left: -1100px;
 }
 main section {
     text-align: center;
@@ -92,7 +101,7 @@ main section img {
 }
 footer {
     padding: 50px;
-    margin-top: -2%;
+    margin-top: -20px;
     background-color: black;
     display: grid;
     grid-template-columns: auto;
@@ -108,9 +117,11 @@ footer p {
     grid-row: 1/2;
     padding: 20px;
     writing-mode: vertical-rl;
-    display: flex;
+    display:list-item;
     transform: rotate(0deg);
     align-items: center;
-    justify-content: center;
-    justify-items: 5;
+    justify-content:space-between;
+    justify-items: flex-start;
+    margin-top: 400px;
+    margin-right: 50px;
 }
