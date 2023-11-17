@@ -132,38 +132,26 @@ footer p {
 }
 
 /* logos css */
-.home-grid{
-    display: grid;
-    text-align: center;
-    grid-template-columns: repeat(10, 1fr);
-}
 .logos-grid{
     display: grid;
-    gap: 1.5em;
-    grid-template-columns: repeat(10, 1fr);
-    justify-items: center;
-    justify-content:space-around;
+    gap: 50px;
+    grid-template-columns: repeat(1fr 1fr 1fr);
+    margin: 20px auto;
+    max-width: 1200px;
 }
-.third-1,.third-2,.third-3,.third-4 {
-    margin: 0px;
-}
-.third-1 {
+.pic1,.pic2,.pic3{
+    border: 4px;
+    border-radius: 10px;
     width: 100%;
-    grid-column: 2/3;
-    grid-row: 1/2;
 }
-.third-2 {
-    width: 100%;
-    grid-column: 4/5;
-    grid-row: 1/2;
+.linda{
+    grid-row: span 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
 }
-.third-3 {
-    width: 100%;
-    grid-column: 6/7;
-    grid-row: 1/2;
-}
-.third-4 {
-    width: 100%;
-    grid-column: 8/9;
-    grid-row: 1/2;
+.pic1{
+    grid-column: 1/2;
+    grid-row: 2/2;
 }
