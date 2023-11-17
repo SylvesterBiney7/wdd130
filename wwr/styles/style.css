@@ -107,7 +107,7 @@ footer p a:hover {
     grid-row: 1/3;
     z-index: -1;
 }
-#hero-msg h1, #hero-msg h4 {
+#hero-msg h1, #contact-msg h1 {
     text-align: center;
     grid-column: 2/3;
     grid-row: 1/2;
@@ -457,7 +457,6 @@ button {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 0;
-    padding-top: 50px;
 }
 
 
