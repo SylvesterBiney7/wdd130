@@ -272,8 +272,7 @@ nav a:hover {
     font-family: Montserrat, MuseoModerno, Poppins;
     font-size: 10em;
     margin-top: 100px;
-    text-shadow: 5px 0px 20px black; 50%;
-    
+    text-shadow: 5px 0px 20px black; 50%;   
 }
 .river-grid {
     display: grid;

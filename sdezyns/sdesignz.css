@@ -132,26 +132,162 @@ footer p {
 }
 
 /* logos css */
-.logos-grid{
-    display: grid;
-    gap: 50px;
-    grid-template-columns: repeat(1fr 1fr 1fr);
-    margin: 20px auto;
-    max-width: 1200px;
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
 }
-.pic1,.pic2,.pic3{
-    border: 4px;
-    border-radius: 10px;
-    width: 100%;
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
-.linda{
-    grid-row: span 3;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
+header {
+    display: flex;
+    background-color: black;
+    justify-content: flex-end;
     align-items: center;
 }
-.pic1{
-    grid-column: 1/2;
-    grid-row: 2/2;
+.main{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    align-content: space-between;
+    text-align: center;
+}
+#sitso-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+}
+.card-img{
+    display: flex;
+    grid-template-columns: 1fr 3fr 1fr;
+    width: 100%;
+}
+h1{
+    font-family: poppins;
+    font-size: 10em;
+    align-items: center;
+    align-content: center;
+    margin-right: 20px;
+}
+p{
+    font-size: 18px;
+    font-family: poppins;
+}
+#logo3-section{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    align-content: center;
+    margin: 20px 10px;
+}
+h2{
+    color: white;
+    font-family: poppins;
+    font-size: 2em;
+}
+h3{
+    color: white;
+    font-family: poppins;
+    font-size: 16px;
+}
+.logo3{
+    border-radius: 10px;
+}
+
+
+
+
+  
+   
+
+
+
+/* contactus */
+body{
+    background-color: #000;
+}
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 450px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+form li + li {
+    margin-top: 1em;
+}
+label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+    color: #fcfbfb;
+}
+input, textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+}
+input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+}
+textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+}
+.button {
+    /* Align buttons with the text fields */
+    padding-left: 110px; /* same size as the label elements */
+}
+button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+    padding: auto;
+}
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;
+    text-align: center;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+.contact {
+    font-family: Montserrat, MuseoModerno, Poppins;
+    font-size: 8em;
+    text-shadow: 5px 0px 20px black 50px;
+}
+#contact-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 0;
 }
