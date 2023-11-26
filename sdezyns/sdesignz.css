@@ -26,9 +26,6 @@ header {
 .logo{
     width: 60px;
 }
-.icon {
-    width: 80px;
-}
 nav{
     display: flex;
     justify-content: space-around;
@@ -125,10 +122,10 @@ footer p {
     align-items: center;
     justify-content:space-between;
     justify-items: flex-start;
-    margin-right: 20px;
+    margin: 20px 50px;
 }
 .social img{
-    margin-top: 50px;
+    margin: 20px 20px;
 }
 
 /* logos css */
@@ -166,14 +163,15 @@ header {
 }
 h1{
     font-family: poppins;
-    font-size: 10em;
+    font-size: 8em;
     align-items: center;
     align-content: center;
-    margin-right: 20px;
+    margin: 100PX 30px;
 }
 p{
     font-size: 18px;
     font-family: poppins;
+    margin-top: -100PX;
 }
 #logo3-section{
     display: flex;
@@ -204,6 +202,9 @@ h3{
 }
 .logo4{
     border-radius: 10px;
+}
+footer{
+    margin-top: 100px;
 }
 
 
