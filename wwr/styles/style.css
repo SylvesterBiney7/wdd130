@@ -14,7 +14,10 @@ a {
     font-family: Montserrat, MuseoModerno, Poppins;
     font-size: 2em;
     margin-top: 10px;
-    text-shadow: 5px 0px 20px black 50px; 
+    text-shadow: 5px 0px 20px black;
+}
+.h1{
+    text-shadow: 5px 0px 30px black; 
 }
 .msg {
     background-color: #6f7364;
@@ -245,7 +248,7 @@ nav a:hover {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
-    color: black 50%;
+    color: black 50px;
 }
 #hero-box {
     grid-column: 1/4;
@@ -277,7 +280,7 @@ nav a:hover {
     font-family: Montserrat, MuseoModerno, Poppins;
     font-size: 10em;
     margin-top: 100px;
-    text-shadow: 5px 0px 20px black 50%;   
+    text-shadow: 5px 0px 20px black;   
 }
 .river-grid {
     display: grid;
@@ -454,8 +457,7 @@ button {
 .contact {
     font-family: Montserrat, MuseoModerno, Poppins;
     font-size: 8em;
-    text-shadow: 5px 0px 20px black; 50%;
-    
+    text-shadow: 5px 0px 20px black 50px;
 }
 #contact-msg {
     grid-column: 2/3;

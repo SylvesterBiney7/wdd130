@@ -207,15 +207,6 @@ footer{
     margin-top: 100px;
 }
 
-
-
-
-
-  
-   
-
-
-
 /* contactus */
 body{
     background-color: #000;
@@ -248,7 +239,7 @@ label {
 input, textarea {
     /* To make sure that all text fields have the same font settings
        By default, textareas have a monospace font */
-    font: 1em sans-serif;
+    font: 1em poppins;
   
     /* Uniform text field size */
     width: 300px;
