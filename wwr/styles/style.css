@@ -248,7 +248,7 @@ nav a:hover {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
-    color: black 50px;
+    color: black;
 }
 #hero-box {
     grid-column: 1/4;
